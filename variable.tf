@@ -15,15 +15,3 @@ variable "iam_name" {
   type        = string
   default     = "iam_package_scan_torwei_lambda"
 }
-
-variable "vpc_name" {
-  description = "The ID of the VPC"
-  type        = string
-  default     = "torwei-vpc-tf-module"
-}
-
-variable "created_by" {
-  description = "The name of vpc creator"
-  type        = string
-  default     = "torwei"
-}
